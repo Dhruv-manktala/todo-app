@@ -25,7 +25,7 @@ const Home = () => {
       } else if (tab === "Completed" && item.isCompleted) {
         return true;
       }
-      return false; 
+      return false;
     });
     // console.log({ tab, _items });
     setShowItems(_items);
